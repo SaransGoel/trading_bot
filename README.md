@@ -93,3 +93,8 @@ python cli.py
 *   **API Keys:** It is assumed the user has successfully generated Testnet-specific API keys from the Demo Trading dashboard, as live-platform keys will result in authentication errors.
 *   **Limit Order Execution:** It is assumed all LIMIT orders require a Time-In-Force (TIF) of `GTC` (Good Till Canceled), which is hardcoded into the order manager.
 *   **Asset Type:** Quantities are entered in the base asset amount (e.g., BTC), not the quote asset (USDT) notional value.
+
+## Deliverables Verification
+The assignment explicitly requires log files demonstrating successful MARKET and LIMIT order executions on the Testnet. 
+
+👉 **[Click here to view the trading_bot.log file](logs/trading_bot.log)**
