@@ -1,0 +1,44 @@
+2026-07-14 20:20:22 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-14 20:20:22 | INFO     | bot.orders | Preparing MARKET BUY order for 0.01 BTCUSDT
+2026-07-14 20:20:22 | INFO     | bot.client | Sending order request to Binance API with parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-14 20:20:22 | INFO     | bot.client | Order executed successfully. Order ID: 21695540458
+2026-07-14 20:24:26 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-14 20:24:26 | INFO     | bot.orders | Preparing LIMIT BUY order for 0.01 BTCUSDT at 6000.0
+2026-07-14 20:24:26 | INFO     | bot.client | Sending order request to Binance API with parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': 0.01, 'price': 6000.0}
+2026-07-14 20:24:26 | INFO     | bot.client | Order executed successfully. Order ID: 21696204517
+2026-07-14 20:36:49 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-14 20:36:49 | INFO     | bot.orders | Preparing MARKET SELL order for 0.1 BTCUSDT
+2026-07-14 20:36:49 | INFO     | bot.client | Sending order request to Binance API with parameters: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.1}
+2026-07-14 20:36:49 | INFO     | bot.client | Order executed successfully. Order ID: 21698237574
+2026-07-14 20:38:40 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-14 20:38:40 | INFO     | bot.orders | Preparing MARKET BUY order for 0.09 BTCUSDT
+2026-07-14 20:38:40 | INFO     | bot.client | Sending order request to Binance API with parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.09}
+2026-07-14 20:38:40 | INFO     | bot.client | Order executed successfully. Order ID: 21698566679
+2026-07-14 21:10:58 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-14 21:11:31 | INFO     | bot.orders | Preparing LIMIT BUY order for 0.1 BTCUSDT at 10000.0
+2026-07-14 21:11:31 | INFO     | bot.client | Sending order request to Binance API with parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': 0.1, 'price': 10000.0}
+2026-07-14 21:11:32 | INFO     | bot.client | Order executed successfully. Order ID: 21703887916
+2026-07-14 21:12:34 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-14 21:12:54 | INFO     | bot.orders | Preparing to modify LIMIT BUY order 21703887916 for 0.1 BTCUSDT to new price 12000.0
+2026-07-14 21:12:54 | INFO     | bot.client | Sending order modification request with parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.1, 'price': 12000.0, 'orderId': 21703887916}
+2026-07-14 21:12:54 | INFO     | bot.client | Order modified successfully. Order ID: 21703887916
+2026-07-15 00:12:45 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:17:07 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:25:23 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:26:43 | ERROR    | bot.client | API Error placing order: APIError(code=-2021): Order would immediately trigger.
+2026-07-15 00:27:06 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:27:34 | INFO     | bot.client | Order executed successfully. ID: 21734549889
+2026-07-15 00:27:39 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:28:41 | ERROR    | bot.client | API Error placing order: APIError(code=-2021): Order would immediately trigger.
+2026-07-15 00:29:09 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:29:25 | INFO     | bot.client | Order 21703887916 cancelled successfully.
+2026-07-15 00:29:36 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:30:28 | INFO     | bot.orders | Placing Grid/Basket Order: 2 levels for BTCUSDT
+2026-07-15 00:30:28 | INFO     | bot.client | Order executed successfully. ID: 21735020649
+2026-07-15 00:30:28 | INFO     | bot.client | Order executed successfully. ID: 21735021432
+2026-07-15 00:30:53 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:31:08 | INFO     | bot.client | Order 21735021432 cancelled successfully.
+2026-07-15 00:31:26 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:31:48 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:35:25 | INFO     | bot.client | Successfully connected to Binance Futures Testnet (USDT-M).
+2026-07-15 00:36:57 | INFO     | bot.client | Order executed successfully. ID: None
